@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HikeEducation - PTE & English Learning Centre</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; }
+    header { background: #2d3436; color: #fff; padding: 20px 40px; position: sticky; top: 0; z-index: 1000; }
+    header h1 { margin: 0; font-size: 24px; }
+    nav { margin-top: 10px; }
+    nav a { color: #fff; text-decoration: none; margin: 0 10px; font-weight: bold; }
+    nav a:hover { color: #ffeaa7; }
+    .hero { background: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?fit=crop&w=1350&q=80') no-repeat center/cover; color: white; text-align: center; padding: 100px 20px; }
+    .hero h2 { font-size: 48px; margin-bottom: 20px; }
+    .hero p { font-size: 20px; }
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    h2 { text-align: center; margin-bottom: 40px; color: #2d3436; }
+    .courses { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .course-card { border: 1px solid #ddd; border-radius: 10px; padding: 20px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }
+    .course-card:hover { transform: translateY(-5px); }
+    .course-card h3 { margin-top: 0; color: #0984e3; }
+    .course-card p { font-size: 18px; margin: 10px 0; }
+    .about, .contact { background: #f9f9f9; border-radius: 10px; padding: 40px; }
+    footer { background: #2d3436; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+    .stats { display: flex; justify-content: space-around; text-align: center; margin-top: 40px; }
+    .stat { background: #ffeaa7; padding: 20px; border-radius: 10px; flex: 1; margin: 0 10px; }
+    .stat h3 { margin: 0; font-size: 32px; color: #2d3436; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HikeEducation</h1>
+    <nav>
+      <a href="#courses">Courses</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Welcome to HikeEducation</h2>
+    <p>Excellence in PTE, IELTS, and English Learning</p>
+  </div>
+
+  <section id="courses">
+    <h2>Our Courses</h2>
+    <div class="courses">
+      <div class="course-card">
+        <h3>PTE</h3>
+        <p>Price: $100</p>
+      </div>
+      <div class="course-card">
+        <h3>IELTS</h3>
+        <p>Price: $200</p>
+      </div>
+      <div class="course-card">
+        <h3>English Spoken</h3>
+        <p>Price: $230</p>
+      </div>
+      <div class="course-card">
+        <h3>Wiyyen</h3>
+        <p>Price: $380</p>
+      </div>
+      <div class="course-card">
+        <h3>Aloksa</h3>
+        <p>Price: $120</p>
+      </div>
+      <div class="course-card">
+        <h3>Navy</h3>
+        <p>Price: $80</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      At HikeEducation, we specialize in providing top-quality training in PTE, IELTS, and English speaking. 
+      With experienced trainers and a commitment to excellence, we help students achieve their academic 
+      and professional goals.
+    </p>
+    <div class="stats">
+      <div class="stat"><h3>500+</h3><p>Students Trained</p></div>
+      <div class="stat"><h3>95%</h3><p>Success Rate</p></div>
+      <div class="stat"><h3>10+</h3><p>Years of Experience</p></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:hikeeducation@hr.in">hikeeducation@hr.in</a></p>
+    <p>Phone: +91-9876543210</p>
+    <p>Location: Delhi, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HikeEducation. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
